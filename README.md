@@ -1,7 +1,7 @@
 <table border=0 cellpadding=0 cellspacing=0>
   <tr>
     <td>
-      <img src="https://media.giphy.com/media/MF1kR4YmC2Z20/giphy.gif" width="155" align="left" />
+      <img src="https://media.giphy.com/media/MF1kR4YmC2Z20/giphy.gif" width="170" align="left" />
     </td>
     <td>
       <font color="#d30001">Ruby on Rails</font>
