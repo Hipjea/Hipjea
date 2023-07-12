@@ -6,6 +6,8 @@
     <td>
       <font color="#d30001">Ruby on Rails</font>
       <br>
+      <font color="#d30001">React</font>
+      <br>
       <font color="#f27f22">Moodle</font>
       <br>
       <font color="#efd81d">Javascript</font>
