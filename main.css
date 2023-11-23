@@ -20,6 +20,8 @@ main h1 {
   background: -webkit-linear-gradient(-70deg, #ad81ff 0%, #3155ce 100%);
   background-clip: text;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  -webkit-background-clip: text;
+  -webkit-box-decoration-break: clone;
   margin-top: 0;
 }
 
