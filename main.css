@@ -1,0 +1,49 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+  /* Eigengrau 🙂 */
+  background-color: #16161d;
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3em;
+}
+
+main h1 {
+  font-style: italic;
+  font-size: 5em;
+  background: -webkit-linear-gradient(-70deg, #ad81ff 0%, #3155ce 100%);
+  background-clip: text;
+  -webkit-text-fill-color: rgba(0, 0, 0, 0);
+  margin-top: 0;
+}
+
+main ul {
+  font-style: normal;
+  color: #ffffff;
+  padding-left: 0;
+  list-style: none;
+}
+
+main ul li {
+  line-height: 1.5em;
+}
+
+main a {
+  color: rgb(177, 135, 255)
+}
+
+main .tech {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+main .tech img {
+  padding: 5px;
+}
