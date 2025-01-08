@@ -1,112 +1,26 @@
-@font-face {
-  font-family: "SM";
-  src: local("SM"), url("assets/fonts/sm-font/super-metroid-small-alt-snes.ttf") format("truetype");
-}
-
 body {
-  font-family: "SM", sans-serif;
-  font-weight: 100;
-  background-color: #000000;
+  font-family: 'Fira Sans', sans-serif;
+  /* Eigengrau 🙂 */
+  background-color: #16161d;
   margin: 0;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-}
-
-main .section {
   height: 100vh;
   display: flex;
-  font-size: 1vw;
-}
-
-main .section .left {
-  width: 128px;
-}
-
-main .section .content {
-  flex-grow: 1;
-  align-content: center;
+  flex-direction: column;
   justify-content: center;
-  text-align: center;
-}
-
-main .section .content>* {
-  justify-content: center;
-}
-
-main .section .right {
-  width: 128px;
-}
-
-main #section-0 {
-  height: calc(100vh + 80px);
-  background: rgb(0, 0, 0);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 1) 75%, rgba(71, 0, 8, 1) 100%);
-}
-
-main #section-0 .left {
-  background-image: url(assets/img/background/Tower-left.png);
-}
-
-main #section-0 .right {
-  background-image: url(assets/img/background/Tower-right.png);
-}
-
-main #section-0-bottom {
-  background-image: url(assets/img/background/Bottom.png);
-  background-repeat: repeat-x;
-  background-position: 100%;
-  height: 80px;
-  margin-top: -80px;
-}
-
-main #section-1-top {
-  background-image: url(assets/img/background/Top.png);
-  background-repeat: repeat-x;
-  background-position: 100%;
-  height: 80px;
-  margin-top: -25px;
-  z-index: 2;
-}
-
-main #section-1-bottom {
-  background-image: url(assets/img/background/Bottom.png);
-  background-repeat: repeat-x;
-  background-position: 100%;
-  height: 80px;
-  margin-top: -80px;
+  align-items: center;
+  font-size: 1.3em;
 }
 
 main h1 {
-  font-size: 4vw;
-  background: -webkit-linear-gradient(-90deg, #f8fc34 0%, #f2281f 100%);
+  font-style: italic;
+  font-size: 5em;
+  background: -webkit-linear-gradient(-70deg, #ad81ff 0%, #3155ce 100%);
   background-clip: text;
   -webkit-text-fill-color: rgba(0, 0, 0, 0);
-  -webkit-background-clip: text;
-  -webkit-box-decoration-break: clone;
   margin-top: 0;
-  line-height: 4.8vw;
-  letter-spacing: -1.25vw;
-  text-shadow: 0px 0px 0 #f8fc34,
-    0px 1px 0 #f5fe2b,
-    0px 2px 0 #f6ef2a,
-    0px 3px 0 #fbed35,
-    0px 4px 0 #f1cf1d,
-    0px 5px 0 #efb928,
-    0px 6px 0 #ec8c1d,
-    0px 7px 0 #f87218,
-    0px 8px 0 #f13218,
-    0px 9px 0 #db1423,
-    0px 10px 0 #7f0032,
-    0px 11px 10px rgba(0, 0, 0, 0),
-    0px 11px 1px rgba(0, 0, 0, 0.5),
-    0px 0px 10px rgba(0, 0, 0, .2);
-}
-
-main h1 span {
-  padding: 0 0.5vw 0 0.75vw;
 }
 
 main ul {
@@ -117,13 +31,11 @@ main ul {
 }
 
 main ul li {
-  line-height: 2em;
+  line-height: 1.5em;
 }
 
 main a {
-  color: #3f55fb;
-  font-family: "Courier New";
-  font-size: 1.5vw;
+  color: rgb(177, 135, 255)
 }
 
 main .tech {
